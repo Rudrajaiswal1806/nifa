@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nifa</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/bootstrap.css" >
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css" >
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <!-- Header -->
+    <div id="top-container">
+        <div class="container-fluid header-top">
+            <div class="container">          
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class=" text-center">Welcome to the National Institute of Fine Arts</p>            
+                    </div>
+                    <div class="col-md-4 d-inline-flex header-col-rit">
+                        <div class="top-mail">
+                            <a href="#" target="_top" class=" text-decoration-none text-center"><i class="fa fa-phone mr-2 text-center"></i>9555112200</a>
+                            <a href="#" target="_top" class=" text-decoration-none text-center"><i class="fa fa-phone mr-2"></i>9205015063</a>                        
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-inline-flex header-col-rit">
+                        <div class="top-mail">
+                            <a href="#" class=" text-decoration-none" target="_top"><i class="fa fa-envelope mr-2"></i>info@nifafinearts.com</a>
+                        </div>
+                        <ul class="header-social text-center">
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>					
+        </div>
+
+        <div class="container">
+            <div id="logo" class=" text-center">
+                <a href="./"><img src="./images//img16.png" width="120" ></a>
+            </div>
+            <div class="responsive d-md-none text-center">
+            	<ul>
+                	<li><img src="images/email.png"><a href="mailto:info@nifafinearts.com">info@nifafinearts.com</a></li>
+                    <li class="margin-right-0"><img src="images/phone.png"><a href="#">+91-9555112200/9205015063</a></li>
+                </ul>
+            </div>
+            <div class="responsive-menu d-md-none text-center">
+            	<select name="page_name" onchange="location = this.options[this.selectedIndex].value;">
+                        <option value="./" selected="selected">Home</option>
+                        <option value="about-us.php">About us</option>
+                            <option value="add-carts.php">View Cart </option>
+                        <option value="career.php">Career</option>
+                        <option value="course.php">Courses
+                            </option><option value="course.php?id=24">&nbsp;-Two years Advance Diploma in Fine Arts</option>
+                            <option value="course.php?id=29">&nbsp;-One Year Diploma in Fine Arts</option>
+                            <option value="course.php?id=30">&nbsp;- 1 to 3 Months Certificate Hobby Course </option>
+                            <option value="course.php?id=31">&nbsp;-Animation Sketching</option>
+                            <option value="course.php?id=32">&nbsp;-Entrance Preparation for NIFT</option>
+                            <option value="course.php?id=35">&nbsp;-Entrance Preparation For N.I.D</option>
+                            <option value="course.php?id=36">&nbsp;-Hobby Certificate Course For Kids</option>
+                            <option value="course.php?id=38">&nbsp;-B.F.A from UGC Recognised University</option>
+                            <option value="course.php?id=39">&nbsp;-Kids Diploma (L-1)</option>
+                            <option value="course.php?id=40">&nbsp;-M.A from UGC Recognised University </option>
+                            <option value="course.php?id=12">&nbsp;-6 Months Diploma in Fine Arts</option>
+                            <option value="course.php?id=16">&nbsp;-Entrance Preparation for B.F.A</option>
+                            <option value="course.php?id=25">&nbsp;-Kids Diploma (L-2)</option>
+							                        
+                        <option value="activity-page.php">Activities
+                                </option><option value="activity-page.php?id=8">&nbsp;-Workshops</option>
+                                    <option value="activity-page.php?id=2">&nbsp;-Outdoor</option>
+                                    <option value="activity-page.php?id=10">&nbsp;-National Art Seminar &amp; Award Show, 2018</option>
+                                    <option value="activity-page.php?id=4">&nbsp;-Media Coverage</option>
+                                    <option value="activity-page.php?id=9">&nbsp;-Judging Art Events</option>
+                                    <option value="activity-page.php?id=5">&nbsp;-Exhibition</option>
+                                    <option value="activity-page.php?id=7">&nbsp;-Daily Activities</option>
+								                        
+                        <option value="online-admission.php">Admission</option>
+                        <option value="students-area.php">Art Gallery
+                        </option><option value="students-area.php?id=4">&nbsp;-Work by Kids Level-2</option>
+                                <option value="students-area.php?id=3">&nbsp;-Work by Kids Level-1</option>
+                                <option value="students-area.php?id=1">&nbsp;-Sketching</option>
+                                <option value="students-area.php?id=2">&nbsp;-Paintings done by Students of Level-3</option>
+									                        
+                        
+                </select>
+
+            </div>
+            <div id="menu">
+                <div class="button-menu  ">
+                    <ul id="nav">
+                        <li><a href="./">Home</a></li>
+                        <li><a href="about-us.php">About</a>
+                            <ul>
+                                <li><a href="facility.php">Facilities</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="course.php">Courses</a>
+                            
+                        </li>
+                        <li><a href="activity-page.php">Activities</a>
+                            <ul>
+                                <li><a href="activity-page.php?id=8">Workshops</a></li>
+                                <li><a href="activity-page.php?id=2">Outdoor</a></li>
+                                <li><a href="activity-page.php?id=10" class=" lh-sm py-1">National Art Seminar &amp; Award Show, 2018</a></li>
+                                <li><a href="activity-page.php?id=4">Media Coverage</a></li>
+                                <li><a href="activity-page.php?id=9">Judging Art Events</a></li>
+                                <li><a href="activity-page.php?id=5">Exhibition</a></li>
+                                <li><a href="activity-page.php?id=7">Daily Activities</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="online-admission.php">Admission</a></li>
+                        <li><a href="students-area.php">Art Gallery</a>
+                            <ul>
+                                <li><a href="students-area.php?id=4">Work by Kids Level-2</a></li>
+                                <li><a href="students-area.php?id=3">Work by Kids Level-1</a></li>
+                                <li><a href="students-area.php?id=1">Sketching</a></li>
+                                <li><a href="students-area.php?id=2"  class=" lh-sm py-1">Paintings done by Students of Level-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="franchise.php">Franchise</a></li>
+                        <li><a href="download-mobile-app.php">Online Classes</a></li>
+						<li><a href="videos.php">Videos</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- The slideshow/carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner-images/banner1.jpg" alt=""  style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-images/banner2.jpg" alt=""  style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-images/banner3.jpg" alt=""  style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-images/banner4.jpg" alt=""  style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-images/banner5.jpg" alt=""  style="width:100%">
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark"></span>
+        </button>
+        <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark"></span>
+        </button>
+      </div>
+    
+
+    <div id="markque-container">
+    	<div class="container mt-3">
+            <div id="part-marq">
+                <div id="headingdd">
+                    <h3 style="font-weight:bold;">Nifa Updates:</h3>
+                </div>
+                <div id="marqueeq">
+                    <marquee behavior="scroll" direction="left" scrollamount="3" scrolldelay="1" onmouseover="this.stop()" onmouseout="this.start()">
+                        <p><strong>All NIFA courses are now available worldwide through our Live and Interactive Online Classes. Please&nbsp;download the NIFA app from our online classes page to register for a complimentary trial class.</strong></p>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="welcome-container">
+		<div class="container">
+		  	<div id="heading">
+				<h1>Welcome To <span>National Institute of Fine Arts </span></h1>
+			</div>
+			<p>National Institute of Fine Arts (NIFA) is a national center for education in arts, fostering the excellence of emerging and established artists and advancing art to create a more human world. National Institute of Fine Arts&nbsp; (NIFA) was established by MRS&nbsp;RENU KHERA in Delhi and&nbsp;NCR of Delhi on July 2005.&nbsp;Institute established another unit in Panna (M.P) which is affiliated to Raja Mansingh Music and Arts University (Gwalior). Its aim is to provide education and training to students on a wide spectrum of Fine Arts.</p>
+            <p>National Institute of Fine Arts<strong>&nbsp;</strong>is a place where the creative expression of individuals is nurtured and a sense of community flourishes. We seek to shape the global future of arts with an emphasis on excellence that allows its members to reach for the highest artistic standards as individuals while recognizing that the Art&nbsp;is&nbsp;one of the foundations of a healthy and creative society. This is a place where national and international leaders in the arts gather, teach, show and perform their work. The institute&nbsp;prides itself on its openness and on creating an environment that is safe, welcoming, and built on mutual respect.</p>
+            <p><strong>National Institute of Fine Arts&nbsp;is a place where the creative expression of individuals is nurtured and a sense of community flourishes.</strong></p>
+			<button type="button" class="btn btn-outline" href="#">Read More</button>
+		</div>
+	</div>
+    <div style="clear: both;"></div>
+
+    <section class="container-fluid downapp">
+        <div class="container">
+            <div class="row onclassec">  
+                <div class="col-md-5">
+                    <div class="lmore-content">
+                        <h2>Online Classes</h2>
+                        <p>Dear Students/Parents, Nifa presents its Learning App for your regular art practice in which we have added many amazing features Like: Step-by-step recorded demo videos prepared by your faculty members. Regular assessment of your practise through assignment section. Live class section from same app. Attendance, payment invoice, art news, announcements, important information and direct connect with the management team are some more features. So hurry up n join now to experience personalised coaching by experts sitting at your home.</p>
+                        <p>We wish u Happy Learning. Stay Safe n Healthy.</p>
+                        <button type="button" class="btn btn-outline" href="#">Read More</button>
+                        <p class="nfothed">Download the app</p>
+                        <ul class="list-inline nappimg">
+                            <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=co.thanos.fljvr"><img src="images/gplay.png" class="img-responsive"></a></li>
+                            <li class="list-inline-item"><a href="https://apps.apple.com/us/app/apple-store/id1472483563"><img src="images/appstore.png" class="img-responsive"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-9cJjaLXKqE?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="clear: both;"></div>
+
+    <div id="course-program-container" class="coursec">
+		<div class="container">
+			<div class="left-container">
+				<div id="head"><h2>Our Courses</h2></div>				
+				    <div class="package-cont mt-5">
+					    <div class="row equal">		
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img4.jpg" class="img-responsive">
+                                    <div>
+                                        <p>6 Months Diploma in Sketching &amp; Oil Painting - Regular/Part time</p>											
+                                        <button type="button" onclick="window.location.href='course.php?id=12'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img3.jpg" class="img-responsive">
+                                    <div>
+                                        <p>1 to 3  Months Certificate Hobby Course (Regular and Weekend)</p>																
+                                        <button type="button" onclick="window.location.href='course.php?id=30'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+						    </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img1.jpg" class="img-responsive">
+                                    <div>
+                                        <p>One Year Diploma in Fine Arts-Regular/Part Time-Level-3</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=29'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img2.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Two years Advance Diploma in Fine Arts - Regular/Part time</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=24'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+					    </div>
+
+                        <div class="row equal">		
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img8.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Entrance Preparation For N.I.D</p>											
+                                        <button type="button" onclick="window.location.href='course.php?id=35'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img7.jpg" class="img-responsive">
+                                    <div>
+                                        <p>B.F.A from UGC Recognised University</p>														
+                                        <button type="button" onclick="window.location.href='course.php?id=38'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img15.jpg" class="img-responsive">
+                                    <div>
+                                        <p>M.A in Painting from UGC Recognised University</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=40'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img10.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Entrance preparation for B.F.A</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=16'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					    <div class="row equal ccard-lrow">		
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img13.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Kids 1 year Diploma (Level-1)</p>											
+                                        <button type="button" onclick="window.location.href='course.php?id=39'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img14.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Kids 1 year Diploma (Level-2)</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=31'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img9.jpg" class="img-responsive">
+                                    <div>
+                                        <p>Entrance Preparation for NIFT</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=32'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="pac-col4">
+                                    <img src="images/img12.jpg" class="img-responsive">
+                                    <div>
+                                        <p>3 Months Hobby Certificate Course For Kids</p>																	
+                                        <button type="button" onclick="window.location.href='course.php?id=36'" class="pacbt">Know More</button>
+                                    </div>
+                                </div>
+                            </div>						
+					    </div>
+				    </div>
+				</div>
+			</div>
+	    </div>
+	<div style="clear:both;"></div>
+
+    <div class="container-fluid">
+		<div id="gallery-container" class="container">
+            <div id="head"><h2>Students Work</h2></div>
+            <div class="container">
+                <div class="row">
+                    <ul class="galul">
+                        <li class="gallery-item"><a href="images/gallery-images/img1.jpg" data-fancybox="images"><img src="images/gallery-images/img1.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img2.jpg" data-fancybox="images"><img src="images/gallery-images/img2.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img3.jpg" data-fancybox="images"><img src="images/gallery-images/img3.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img4.jpg" data-fancybox="images"><img src="images/gallery-images/img4.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img5.JPG" data-fancybox="images"><img src="images/gallery-images/img5.JPG"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img6.JPG" data-fancybox="images"><img src="images/gallery-images/img6.JPG"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img7.jpg" data-fancybox="images"><img src="images/gallery-images/img7.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img8.jpg" data-fancybox="images"><img src="images/gallery-images/img8.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img9.jpg" data-fancybox="images"><img src="images/gallery-images/img9.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img10.jpg" data-fancybox="images"><img src="images/gallery-images/img10.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img11.jpg" data-fancybox="images"><img src="images/gallery-images/img11.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img12.jpg" data-fancybox="images"><img src="images/gallery-images/img12.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img13.jpg" data-fancybox="images"><img src="images/gallery-images/img13.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img14.jpeg" data-fancybox="images"><img src="images/gallery-images/img14.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img15.jpeg" data-fancybox="images"><img src="images/gallery-images/img15.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img16.jpeg" data-fancybox="images"><img src="images/gallery-images/img16.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img17.jpg" data-fancybox="images"><img src="images/gallery-images/img17.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img18.jpeg" data-fancybox="images"><img src="images/gallery-images/img18.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img19.jpg" data-fancybox="images"><img src="images/gallery-images/img19.jpg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img20.jpeg" data-fancybox="images"><img src="images/gallery-images/img20.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img21.jpeg" data-fancybox="images"><img src="images/gallery-images/img21.jpeg"></a></li>
+                        <li class="gallery-item"><a href="images/gallery-images/img22.jpg" data-fancybox="images"><img src="images/gallery-images/img22.jpg"></a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</div>
+
+    <div id="student-container">
+		<div class="container">
+			<h2 class="text-center mb-5">Student's Testimonial</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VrGcY2k5zuc"></iframe>
+						</div>
+				   </div>					
+				</div>
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EnYCmNGoySc"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iX6KgBTH__E"></iframe>
+						</div>
+				   </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hvjJv1zVl2k"></iframe>
+						</div>
+				   </div>					
+				</div>
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GfialCtEAYk"></iframe>
+						</div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="testimonial-content">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S5AUDt6999o"></iframe>
+						</div>
+				   </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="footer-container2">
+		<footer>
+            <div class="container-fluid nfotcont">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xs-6">
+                            <p class="nfothed">Company</p>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="about-us.php" class="text-decoration-none">About</a></li>
+                                <li class="list-group-item"><a href="facility.php" class="text-decoration-none">Facilities</a></li>
+                                <li class="list-group-item"><a href="career.php" class="text-decoration-none">Career</a></li>
+                                <li class="list-group-item"><a href="contact.php" class="text-decoration-none">Contact us</a></li>
+                                <li class="list-group-item"><a href="term.php" class="text-decoration-none">Terms &amp; Conditions</a></li>
+                                <li class="list-group-item"><a href="refund-policy.php" class="text-decoration-none">Refund Policy</a></li>
+                            </ul>
+                        </div>                
+
+                        <div class="col-md-3 col-lg-3 col-xs-6 fotcol4">
+                            <p class="nfothed">Activities</p>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="activity-page.php?id=8" class="text-decoration-none">Workshops</a></li>
+                                <li class="list-group-item"><a href="activity-page.php?id=2" class="text-decoration-none">Outdoor Activities</a></li>
+                                <li class="list-group-item"><a href="activity-page.php?id=4" class="text-decoration-none">Media Coverage</a></li>
+                                <li class="list-group-item"><a href="activity-page.php?id=9" class="text-decoration-none">Art Events</a></li>
+                                <li class="list-group-item"><a href="activity-page.php?id=5" class="text-decoration-none">Exhibition</a></li>
+                                <li class="list-group-item"><a href="activity-page.php?id=7" class="text-decoration-none">Daily Activities</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-xs-6 fotcol4">
+                            <p class="nfothed">Popular Course</p>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="course.php?id=29" class="text-decoration-none">Diploma in Fine Arts</a></li>
+                                <li class="list-group-item"><a href="course.php?id=30" class="text-decoration-none">Certificate Hobby Course</a></li>
+                                <li class="list-group-item"><a href="course.php?id=35" class="text-decoration-none">Entrance Preparation</a></li>
+                                <li class="list-group-item"><a href="course.php?id=38" class="text-decoration-none">BFA</a></li>
+                                <li class="list-group-item"><a href="course.php?id=31" class="text-decoration-none">Animation Sketching</a></li>
+                                <li class="list-group-item"><a href="course.php?id=39" class="text-decoration-none">Kids Diploma</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xs-6 fotcol4">
+                            <p class="nfothed">Art Gallery</p>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="students-area.php?id=3" class="text-decoration-none">Work by kids level-1</a></li>
+                                <li class="list-group-item"><a href="students-area.php?id=4" class="text-decoration-none">Work by kids level-2</a></li>
+                                <li class="list-group-item"><a href="students-area.php?id=1" class="text-decoration-none">Sketching</a></li>
+                                <li class="list-group-item"><a href="students-area.php?id=2" class="text-decoration-none">Painting by Student Level-3</a></li>
+                            </ul>
+                        </div>				                
+                    </div>   
+                    <div class="row nfotrow2">
+                        <div class="col-md-5 col-lg-5 col-xs-12">
+                            <p class="nfothed mt-4 mt-sm-0">Connect with us</p>
+                            <p><a href="tel:9205015063" class="text-decoration-none" target="_top">9205015063</a>, <a href="tel:9555112200" class="text-decoration-none" target="_top">9555112200</a></p>
+                            <p><a href="mailto:info@nifafinearts.com" class="text-decoration-none" target="_top">info@nifafinearts.com</a></p>
+                            <ul class="list-inline nfot-soclist">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/nifafinearts" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/artsnifa?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://instagram.com/nifafinearts?igshid=9ni7d0aogzed" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCud0pfiZT-Ph2JX1_tN6rbw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-7 col-lg-7 col-xs-12">
+                        <p class="nfothed text-end">Download the app</p>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item "><a href="https://play.google.com/store/apps/details?id=co.thanos.fljvr"><img src="images/gplay.png" class="img-fluid" width="150px"></a></li>
+                            <li class="list-inline-item "><a href="https://apps.apple.com/us/app/apple-store/id1472483563"><img src="images/appstore.png" class="img-fluid " width="150px"></a></li>
+                        </ul>
+                        <p class="nfotbotline text-end mb-0">© Copyright 2021 NIFA Fine Arts. All Rights Reserved.</p>
+                        </div>               
+                    </div>         
+                </div>
+            </div>
+
+            <!-- <div class="whatsapp d-none d-md-block">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=919205015063"><i class="fa fa-whatsapp"></i></a>
+            </div> -->
+        </footer>
+        </div>
+    <script src="js/responsiveslides.min.js"></script>
+    
+
+    <script src=""></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+</html>
